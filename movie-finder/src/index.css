@@ -1,0 +1,123 @@
+
+html{
+  margin: 0;
+
+}
+body{
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  background-color: black;
+}
+
+
+
+
+.BtnTxt{
+  color: #F90;
+  text-align: center;
+}
+
+.btnNav{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: start !important;
+  gap: 5px;
+  width: 100%;
+  border-radius: 0% !important;
+  transition: background-color 0.2s linear !important;
+  text-align: start;
+  padding-left: 1rem !important;
+  font-size: 14px !important;
+}
+
+Button :hover{
+  transition: background-color 0.2s linear !important;
+}
+
+.Icons{
+  height: 1rem;
+  width: 1rem;
+}
+
+.sideIcon{
+  height: 100%;
+  width: 100%;
+}
+
+.homeBackground{
+  background:linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.781)), url('../public/assets/OBG1.jpg') lightgray 50% / cover no-repeat;
+  width: 90vw;
+  border-bottom: 2px solid #33363F;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+#logo-container{
+  width: 26.935px;
+  height: 39px;
+}
+
+#logo-container img{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+#HeaderHome{
+  color: #F90;
+  font-family: "Unica One";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#siteFullIcon :hover{ 
+  cursor: pointer !important;
+}
+
+.movieDetailsButtons{
+
+  background-color: black !important;
+
+  font-size: 24px !important;
+  color: white !important;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  border: #F90 2px solid !important;
+  border-radius: 100px !important;
+
+  width: 55px ;
+  height: 55px ;
+  
+}
+
+
+
+#movieFrame img{
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+}
+
+#movieDetailBackground .underBack{
+  -webkit-backdrop-filter: contrast(80%) brightness(45%);
+  backdrop-filter: contrast(80%) brightness(45%) ;
+}
+
+.carouselItem{
+  width:'165px !important';
+}
+.MovieCard :hover{
+  opacity: 60%;
+  backdrop-filter: brightness(180%) !important;
+  -webkit-backdrop-filter: brightness(180%);
+}
